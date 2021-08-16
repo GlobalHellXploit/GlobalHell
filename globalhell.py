@@ -97,7 +97,7 @@ def jalan(z):
 def logo():
 	os.system("clear")
 	print("""
-    ＧＬＯＢＡＬ ＨＥＬＬ ＸＰＬＯＩＴ͜T͜͡
+    ＧＬＯＢＡＬ ＨＥＬＬ ＸＰＬＯＩＴ
                                           """)
 def bot_follow():
 	try:
