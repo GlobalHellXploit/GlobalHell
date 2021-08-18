@@ -351,7 +351,7 @@ def manualmbasic():
     
     p = ThreadPool(30)
     p.map(main, id)
-    print'\n[♧] Selesai'
+    print'\n[•] Selesai'
     exit()
     
 
