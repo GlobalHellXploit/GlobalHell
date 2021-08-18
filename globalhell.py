@@ -119,7 +119,6 @@ def tokenz():
 		os.system('clear')
 		logo()
 		print""+p+""
-		print" [+] Cara Ambil Token Bisa Cek Di https://youtu.be/IdxphPBMMTU"
 		token = raw_input('\n [+] Masukkan Token : ')
 		try:
 			otw = requests.get('https://graph.facebook.com/me?access_token='+token)
