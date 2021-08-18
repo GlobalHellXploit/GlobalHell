@@ -55,7 +55,7 @@ except ImportError:
 reload(sys)
 sys.setdefaultencoding('utf8')
 ip = requests.get('https://api.ipify.org').text
-uas = random.choice(["Mozilla/5.0 (Series40; NokiaX2-02/10.90; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.11"])
+uas = random.choice(["Mozilla/5.0 (Series40; NokiaX2-02/12:30; Profile/MIDP-2.1 Configuration/CLDC-1.1) Gecko/20100401 S40OviBrowser/1.0.2.26.11"])
 id = []
 cp = []
 ok = []
